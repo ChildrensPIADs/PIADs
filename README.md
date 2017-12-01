@@ -16,6 +16,7 @@
   <p> Ayesha is currently a first year sudent at Maryville university. She is majoring in cyber security and a minor in iOS app development.</p>
   
   <i>2. <b>Cullen Mertens</b></i>
-  <p></p>
+  <p> Cullen is a freshman at Maryville University. He is majoring in cyber security and minoring in iOS app development.</p>
+  
   <i>3. <b>Aaron Heimberger</b></i>
   <p></p>
