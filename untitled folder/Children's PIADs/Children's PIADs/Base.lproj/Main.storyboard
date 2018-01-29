@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="KohinoorTelugu.ttc">
+            <string>KohinoorTelugu-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Children_s_PIADs" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eOn-nU-H6Q">
+                                <rect key="frame" x="10" y="169" width="1000" height="200"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Fv-5v-VtX">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="O0b-LN-GNR"/>
+                                            <constraint firstAttribute="width" constant="200" id="djN-e4-8aY"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="iPad 5"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MmC-sq-ViT">
+                                        <rect key="frame" x="200" y="0.0" width="200" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="1OV-oQ-HUq"/>
+                                            <constraint firstAttribute="width" constant="200" id="ouq-wP-37J"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="iPad 5 copy"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qql-eM-fe7">
+                                        <rect key="frame" x="400" y="0.0" width="200" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="EYd-uM-TIQ"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="iPad 5 copy 7"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HyK-eq-n0i">
+                                        <rect key="frame" x="600" y="0.0" width="200" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="1C8-Kz-k3G"/>
+                                            <constraint firstAttribute="width" constant="200" id="Kh5-sh-4Hr"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="iPad 5 copy 6"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WnY-nA-nvO">
+                                        <rect key="frame" x="800" y="0.0" width="200" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="DYC-61-qco"/>
+                                            <constraint firstAttribute="width" constant="200" id="F38-oC-8Oq"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="iPad 5 copy 5"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="3Fv-5v-VtX" firstAttribute="leading" secondItem="eOn-nU-H6Q" secondAttribute="leading" id="4IG-8e-f6h"/>
+                                    <constraint firstItem="qql-eM-fe7" firstAttribute="leading" secondItem="MmC-sq-ViT" secondAttribute="trailing" id="b8d-29-iSb"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="1000" id="dO8-Vr-cbB"/>
+                                    <constraint firstItem="MmC-sq-ViT" firstAttribute="leading" secondItem="3Fv-5v-VtX" secondAttribute="trailing" id="pXh-Sv-RRE"/>
+                                    <constraint firstItem="HyK-eq-n0i" firstAttribute="leading" secondItem="qql-eM-fe7" secondAttribute="trailing" id="rtr-BB-gTy"/>
+                                    <constraint firstItem="WnY-nA-nvO" firstAttribute="leading" secondItem="HyK-eq-n0i" secondAttribute="trailing" id="txN-DS-HJ4"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="JeU-vn-YOS">
+                                <rect key="frame" x="19" y="377" width="1000" height="43.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Never" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="plj-bP-KJ1">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="43.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="DOi-DS-HdW"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="31"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Almost Never" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wcT-GK-RYq">
+                                        <rect key="frame" x="200" y="0.0" width="200" height="43.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="Yae-d5-DJ5"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="31"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Sometimes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YYB-zM-qMJ">
+                                        <rect key="frame" x="400" y="0.0" width="200" height="43.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="XRK-OO-WRa"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="31"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Almost Always" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MIq-xT-AYV">
+                                        <rect key="frame" x="600" y="0.0" width="200" height="43.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="KxY-x0-fpP"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Always" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Onu-B7-xHm">
+                                        <rect key="frame" x="800" y="0.0" width="200" height="43.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="4EE-Dm-JRY"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="31"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1000" id="gmm-s3-wik"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Bc-E9-Cja">
+                                <rect key="frame" x="118" y="603" width="423" height="119"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="iPad 5 copy 4"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ozp-91-6ss">
+                                <rect key="frame" x="506" y="595" width="415" height="136"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="iPad 5 copy 3"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="JeU-vn-YOS" secondAttribute="trailing" constant="5" id="46x-FU-Kov"/>
+                            <constraint firstItem="eOn-nU-H6Q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="XjI-7I-E02"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="31.640624999999996" y="32.8125"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="iPad 5" width="199" height="241"/>
+        <image name="iPad 5 copy" width="205" height="245"/>
+        <image name="iPad 5 copy 3" width="388" height="146"/>
+        <image name="iPad 5 copy 4" width="402" height="129"/>
+        <image name="iPad 5 copy 5" width="204" height="240"/>
+        <image name="iPad 5 copy 6" width="207" height="241"/>
+        <image name="iPad 5 copy 7" width="204" height="238"/>
+    </resources>
+</document>
