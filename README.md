@@ -11,10 +11,12 @@
   <p>The goal of the app is for the doctor to assess the users performance while they are using the technology, in seeing if it works. This will allow patients to continue with their current treatment or proceed with a better treatment.</p>
   
 ### About the Developers
-  <p>In total there are 2 developers that have worked on this app:</p>
+  <p>In total there are 3 developers that have worked on this app:</p>
   <i>1. <b>Ayesha Shaik</b></i>
   <p> Ayesha is currently a first year sudent at Maryville university. She is majoring in cyber security and a minor in iOS app development.</p>
   
   <i>2. <b>Cullen Mertens</b></i>
   <p> Cullen is a freshman at Maryville University. He is majoring in cyber security and minoring in iOS app development.</p>
+  
+  <i>3. <b>DJ</b></i>
   
