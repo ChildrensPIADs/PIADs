@@ -39,10 +39,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="iPad 5 copy 3"/>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Please enter your name." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HgA-7M-Qmr">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Please enter your name." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="HgA-7M-Qmr">
                                 <rect key="frame" x="256" y="389" width="512" height="114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.90989481754253565" green="0.90989481754253565" blue="0.90989481754253565" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -53,7 +53,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jIe-QK-XMg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="41.6015625" y="-3436.71875"/>
+            <point key="canvasLocation" x="271" y="-4199"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ofi-gJ-g6r">
@@ -93,7 +93,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jw8-cn-Ksr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="33.984375" y="-2761.71875"/>
+            <point key="canvasLocation" x="226" y="-3393"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="QSW-6c-khy">
@@ -108,7 +108,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ssq-LO-ySP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="689" y="-2753"/>
+            <point key="canvasLocation" x="703" y="-2785"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gVJ-M5-wdN">
@@ -131,7 +131,7 @@ device you are using.</string>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mzo-cb-3cT">
                                 <rect key="frame" x="252" y="274" width="521" height="337"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.90972417593002319" green="0.9098549485206604" blue="0.90969544649124146" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="41"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -560,6 +560,7 @@ given question.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NbH-yG-dcW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="900" y="-3503"/>
         </scene>
     </scenes>
     <resources>
@@ -584,6 +585,7 @@ given question.</string>
         <image name="maryville-vertical-logo" width="1070" height="1146"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="WQ0-SO-wEg"/>
+        <segue reference="y2l-WC-8Xi"/>
+        <segue reference="dP2-JX-iyX"/>
     </inferredMetricsTieBreakers>
 </document>
