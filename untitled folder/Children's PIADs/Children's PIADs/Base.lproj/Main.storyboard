@@ -38,6 +38,9 @@
                                 <rect key="frame" x="322" y="632" width="415" height="136"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="iPad 5 copy 3"/>
+                                <connections>
+                                    <segue destination="3bn-XZ-Bd8" kind="show" id="gkG-FV-hjO"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Please enter your name." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HgA-7M-Qmr">
                                 <rect key="frame" x="256" y="389" width="512" height="114"/>
@@ -219,10 +222,10 @@ makes you feel.</string>
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rfx-oi-WVh">
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rfx-oi-WVh">
                                 <rect key="frame" x="10" y="169" width="1000" height="200"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NLM-fh-BRA">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NLM-fh-BRA">
                                         <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="200" id="07R-s5-HeL"/>
@@ -230,7 +233,7 @@ makes you feel.</string>
                                         </constraints>
                                         <state key="normal" title="Button" image="iPad 5"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ITR-de-69C">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ITR-de-69C">
                                         <rect key="frame" x="200" y="0.0" width="200" height="200"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="200" id="sfh-eV-RbW"/>
@@ -238,14 +241,14 @@ makes you feel.</string>
                                         </constraints>
                                         <state key="normal" title="Button" image="iPad 5 copy"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TlX-hb-uZb">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TlX-hb-uZb">
                                         <rect key="frame" x="400" y="0.0" width="200" height="200"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="200" id="reR-bf-uNl"/>
                                         </constraints>
                                         <state key="normal" title="Button" image="iPad 5 copy 7"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QD3-Zn-C1M">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QD3-Zn-C1M">
                                         <rect key="frame" x="600" y="0.0" width="200" height="200"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="200" id="DUN-GW-mrD"/>
@@ -253,7 +256,7 @@ makes you feel.</string>
                                         </constraints>
                                         <state key="normal" title="Button" image="iPad 5 copy 6"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YDt-Ky-Dl2">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YDt-Ky-Dl2">
                                         <rect key="frame" x="800" y="0.0" width="200" height="200"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="200" id="knL-Kl-cam"/>
@@ -269,13 +272,14 @@ makes you feel.</string>
                                     <constraint firstItem="ITR-de-69C" firstAttribute="leading" secondItem="NLM-fh-BRA" secondAttribute="trailing" id="ZSF-oR-nf6"/>
                                     <constraint firstItem="NLM-fh-BRA" firstAttribute="leading" secondItem="rfx-oi-WVh" secondAttribute="leading" id="m8X-ri-93F"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="1000" id="mub-AY-2l6"/>
+                                    <constraint firstItem="NLM-fh-BRA" firstAttribute="top" secondItem="rfx-oi-WVh" secondAttribute="top" constant="50" id="rtq-hh-kNj"/>
                                 </constraints>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="be7-FL-bcm">
-                                <rect key="frame" x="19" y="377" width="1000" height="43.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="be7-FL-bcm">
+                                <rect key="frame" x="19" y="377" width="1000" height="33.5"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Never" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jF1-1R-tGX">
-                                        <rect key="frame" x="0.0" y="0.0" width="200" height="43.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Never" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jF1-1R-tGX">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="33.5"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="200" id="wse-u4-mrA"/>
                                         </constraints>
@@ -283,8 +287,8 @@ makes you feel.</string>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Almost Never" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qbd-5X-hVX">
-                                        <rect key="frame" x="200" y="0.0" width="200" height="43.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Almost Never" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qbd-5X-hVX">
+                                        <rect key="frame" x="200" y="0.0" width="200" height="33.5"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="200" id="NtG-e1-vrX"/>
                                         </constraints>
@@ -292,8 +296,8 @@ makes you feel.</string>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Sometimes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hKw-Ys-XAd">
-                                        <rect key="frame" x="400" y="0.0" width="200" height="43.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sometimes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hKw-Ys-XAd">
+                                        <rect key="frame" x="400" y="0.0" width="200" height="33.5"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="200" id="1UT-68-uQ4"/>
                                         </constraints>
@@ -301,8 +305,8 @@ makes you feel.</string>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Almost Always" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bKC-b2-Y4v">
-                                        <rect key="frame" x="600" y="0.0" width="200" height="43.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Almost Always" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bKC-b2-Y4v">
+                                        <rect key="frame" x="600" y="0.0" width="200" height="33.5"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="200" id="nKb-nZ-l6b"/>
                                         </constraints>
@@ -310,8 +314,8 @@ makes you feel.</string>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Always" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9NS-M7-uOa">
-                                        <rect key="frame" x="800" y="0.0" width="200" height="43.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Always" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9NS-M7-uOa">
+                                        <rect key="frame" x="800" y="0.0" width="200" height="33.5"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="200" id="ovX-Ha-OVx"/>
                                         </constraints>
@@ -324,28 +328,58 @@ makes you feel.</string>
                                     <constraint firstAttribute="width" constant="1000" id="oMs-kj-dIh"/>
                                 </constraints>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NEI-Xd-CTV">
-                                <rect key="frame" x="118" y="603" width="423" height="119"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NEI-Xd-CTV">
+                                <rect key="frame" x="118" y="593" width="456" height="129"/>
                                 <state key="normal" title="Button" image="iPad 5 copy 4"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uyS-BM-be9">
-                                <rect key="frame" x="506" y="595" width="415" height="136"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uyS-BM-be9">
+                                <rect key="frame" x="532" y="585" width="442" height="146"/>
                                 <state key="normal" title="Button" image="iPad 5 copy 3"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZKn-2J-u0N">
+                                <rect key="frame" x="385" y="20" width="340" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Makes it easier for 
+me to do things.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lHt-fQ-vcg">
+                                <rect key="frame" x="848" y="76" width="42" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="uyS-BM-be9" firstAttribute="top" secondItem="be7-FL-bcm" secondAttribute="bottom" constant="174.5" id="0Ul-hE-oFQ"/>
+                            <constraint firstItem="NEI-Xd-CTV" firstAttribute="leading" secondItem="YEH-01-iA3" secondAttribute="leading" constant="118" id="3OR-3H-LEF"/>
+                            <constraint firstItem="be7-FL-bcm" firstAttribute="top" secondItem="rfx-oi-WVh" secondAttribute="bottom" constant="8" id="4Cn-je-fVH"/>
+                            <constraint firstItem="YEH-01-iA3" firstAttribute="bottom" secondItem="NEI-Xd-CTV" secondAttribute="bottom" constant="46" id="5bg-NB-D65"/>
                             <constraint firstItem="rfx-oi-WVh" firstAttribute="leading" secondItem="YEH-01-iA3" secondAttribute="leading" constant="10" id="DOt-hW-8jA"/>
+                            <constraint firstItem="be7-FL-bcm" firstAttribute="top" secondItem="rfx-oi-WVh" secondAttribute="bottom" constant="8" id="NtZ-pa-A81"/>
+                            <constraint firstItem="YEH-01-iA3" firstAttribute="bottom" secondItem="uyS-BM-be9" secondAttribute="bottom" constant="37" id="QBd-xI-jva"/>
+                            <constraint firstItem="NEI-Xd-CTV" firstAttribute="top" secondItem="be7-FL-bcm" secondAttribute="bottom" constant="182.5" id="YXu-uz-v35"/>
+                            <constraint firstItem="uyS-BM-be9" firstAttribute="top" secondItem="be7-FL-bcm" secondAttribute="bottom" constant="174.5" id="fj8-TX-LKk"/>
+                            <constraint firstItem="YEH-01-iA3" firstAttribute="trailing" secondItem="uyS-BM-be9" secondAttribute="trailing" constant="50" id="j0C-ra-oYA"/>
                             <constraint firstAttribute="trailing" secondItem="be7-FL-bcm" secondAttribute="trailing" constant="5" id="n1d-3y-Sve"/>
+                            <constraint firstItem="rfx-oi-WVh" firstAttribute="top" secondItem="YEH-01-iA3" secondAttribute="top" constant="149" id="n7H-vD-0V8"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="YEH-01-iA3"/>
                     </view>
+                    <connections>
+                        <outlet property="backButton" destination="NEI-Xd-CTV" id="I2L-08-sp3"/>
+                        <outlet property="forwardButton" destination="uyS-BM-be9" id="KqC-Y8-cn8"/>
+                        <outlet property="questionLabel" destination="ZKn-2J-u0N" id="iOn-Ev-Fhv"/>
+                        <outlet property="valueTest" destination="lHt-fQ-vcg" id="cQV-Jf-jZw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TEG-l6-sg8" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="32" y="-717"/>
+            <point key="canvasLocation" x="31.640624999999996" y="-717.1875"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tnx-Ss-0XU">
@@ -547,20 +581,6 @@ given question.</string>
             </objects>
             <point key="canvasLocation" x="21" y="3363"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="inT-Qu-5lt">
-            <objects>
-                <viewController id="rJL-d3-pZy" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="uE6-xO-bk7">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <viewLayoutGuide key="safeArea" id="PoI-Sy-ylS"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="NbH-yG-dcW" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-        </scene>
     </scenes>
     <resources>
         <image name="iPad" width="547" height="200"/>
@@ -585,5 +605,6 @@ given question.</string>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="WQ0-SO-wEg"/>
+        <segue reference="gkG-FV-hjO"/>
     </inferredMetricsTieBreakers>
 </document>
