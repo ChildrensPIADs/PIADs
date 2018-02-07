@@ -14,7 +14,6 @@
 		73556C09202A2F2B007EDF5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73556C07202A2F2B007EDF5F /* LaunchScreen.storyboard */; };
 		73556C14202A2F2B007EDF5F /* PAIDs_2_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73556C13202A2F2B007EDF5F /* PAIDs_2_0Tests.swift */; };
 		73556C1F202A2F2B007EDF5F /* PAIDs_2_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73556C1E202A2F2B007EDF5F /* PAIDs_2_0UITests.swift */; };
-		73556C2D202BA189007EDF5F /* PAIDs 2.0 in Resources */ = {isa = PBXBuildFile; fileRef = 73556C2C202BA189007EDF5F /* PAIDs 2.0 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +47,6 @@
 		73556C1A202A2F2B007EDF5F /* PAIDs 2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PAIDs 2.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73556C1E202A2F2B007EDF5F /* PAIDs_2_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAIDs_2_0UITests.swift; sourceTree = "<group>"; };
 		73556C20202A2F2B007EDF5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		73556C2C202BA189007EDF5F /* PAIDs 2.0 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "PAIDs 2.0"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +100,6 @@
 				73556BFE202A2F2A007EDF5F /* AppDelegate.swift */,
 				73556C00202A2F2B007EDF5F /* ViewController.swift */,
 				73556C02202A2F2B007EDF5F /* Main.storyboard */,
-				73556C2C202BA189007EDF5F /* PAIDs 2.0 */,
 				73556C05202A2F2B007EDF5F /* Assets.xcassets */,
 				73556C07202A2F2B007EDF5F /* LaunchScreen.storyboard */,
 				73556C0A202A2F2B007EDF5F /* Info.plist */,
@@ -237,7 +234,6 @@
 			files = (
 				73556C09202A2F2B007EDF5F /* LaunchScreen.storyboard in Resources */,
 				73556C06202A2F2B007EDF5F /* Assets.xcassets in Resources */,
-				73556C2D202BA189007EDF5F /* PAIDs 2.0 in Resources */,
 				73556C04202A2F2B007EDF5F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

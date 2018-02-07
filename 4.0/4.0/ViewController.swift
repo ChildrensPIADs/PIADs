@@ -47,6 +47,9 @@ class ViewController: UIViewController {
             questionLabel.text = "Makes my life better." }
         else if questionValue == 15 {
             questionLabel.text = "Helps me try new things." }
+        else if questionValue == 16 {
+            performSegue(withIdentifier: "SectionTwoSegue" , sender: forwardButton)
+        }
         
     }
     
