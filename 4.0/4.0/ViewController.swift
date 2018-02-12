@@ -5,6 +5,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var forwardButton: UIButton!
     @IBOutlet weak var backButton: UIButton!
+    @IBOutlet weak var neverButton: UIButton!
+    @IBOutlet weak var almostNeverButton: UIButton!
+    @IBOutlet weak var sometimesButton: UIButton!
+    @IBOutlet weak var almostAlwaysButton: UIButton!
+    @IBOutlet weak var alwaysButton: UIButton!
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -14,6 +21,11 @@ class ViewController: UIViewController {
     }
     
     var questionValue = 1
+    
+    struct questionReponse {
+        var response = String()
+        var question = Int()
+        }
     
     func updateQuestionLabel() {
         if questionValue == 1 {
@@ -54,6 +66,8 @@ class ViewController: UIViewController {
     }
     
     
+  
+    
     @IBAction func forwardButtonPressed(_ sender: UIButton) {
         questionValue += 1
         updateQuestionLabel()
@@ -68,6 +82,7 @@ class ViewController: UIViewController {
         }
         updateQuestionLabel()
     }
+    
     
     
     
