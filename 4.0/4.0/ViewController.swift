@@ -15,20 +15,21 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+    }
         // Do any additional setup after loading the view, typically from a nib.
         
-    }
+  /*  }
     var questionValue = 1
     
     struct questionResponse {
         var reponse = String()
         var questionValue = Int()
     }
+ */
     
     
-    
-    struct questionReponse {
+    // Keeping it just incase we decide to use it again.
+  /*  struct questionReponse {
         var response = String()
         var question = Int()
         }
@@ -70,11 +71,11 @@ class ViewController: UIViewController {
         }
         
     }
-    
+    */
     
   
     
-    @IBAction func forwardButtonPressed(_ sender: UIButton) {
+  /*  @IBAction func forwardButtonPressed(_ sender: UIButton) {
         questionValue += 1
         updateQuestionLabel()
         
@@ -95,10 +96,10 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+} */
+
+
 }
-
-
-
 
 
 
