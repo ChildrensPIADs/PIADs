@@ -19,8 +19,14 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
     }
-    
     var questionValue = 1
+    
+    struct questionResponse {
+        var reponse = String()
+        var questionValue = Int()
+    }
+    
+    
     
     struct questionReponse {
         var response = String()
@@ -82,8 +88,6 @@ class ViewController: UIViewController {
         }
         updateQuestionLabel()
     }
-    
-    
     
     
     
