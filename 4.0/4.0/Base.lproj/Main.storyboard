@@ -49,7 +49,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f21-t1-uN8">
-                                <rect key="frame" x="305" y="432" width="150" height="50"/>
+                                <rect key="frame" x="353" y="432" width="150" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="M">
                                     <color key="titleColor" red="1" green="0.0099468241870000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -70,7 +70,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jjo-h8-il5">
-                                <rect key="frame" x="568" y="432" width="150" height="50"/>
+                                <rect key="frame" x="532" y="432" width="150" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="F">
                                     <color key="titleColor" red="1" green="0.0099468241870000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -195,6 +195,9 @@ the given statement makes you feel.</string>
                                 <rect key="frame" x="544" y="602" width="400" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="6"/>
+                                <connections>
+                                    <segue destination="iwc-Cp-YiQ" kind="show" id="rw3-N5-B2c"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IC5-Q8-BtI">
                                 <rect key="frame" x="114" y="602" width="400" height="100"/>
@@ -595,6 +598,9 @@ using your technology</string>
                                 <rect key="frame" x="109" y="630" width="456" height="129"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="iPad 5 copy 4"/>
+                                <connections>
+                                    <segue destination="EJr-CR-7eS" kind="show" id="2II-ct-HUH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XYr-T0-jck">
                                 <rect key="frame" x="537" y="622" width="442" height="146"/>
@@ -637,11 +643,17 @@ given question.</string>
                                 <rect key="frame" x="544" y="602" width="400" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="6"/>
+                                <connections>
+                                    <segue destination="ZcD-Pl-dM9" kind="show" id="kga-we-72r"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t3l-yU-LsA">
                                 <rect key="frame" x="114" y="602" width="400" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="5"/>
+                                <connections>
+                                    <segue destination="IMB-tM-4A9" kind="show" id="U5c-nv-RYQ"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="cPB-Gr-pgW">
                                 <rect key="frame" x="0.0" y="255.5" width="1024" height="200"/>
@@ -759,11 +771,17 @@ me to do things.</string>
                                 <rect key="frame" x="544" y="602" width="400" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="6"/>
+                                <connections>
+                                    <segue destination="vQ2-E8-JTD" kind="show" id="uNN-lY-95T"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mjE-HN-7xh">
                                 <rect key="frame" x="114" y="602" width="400" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="5"/>
+                                <connections>
+                                    <segue destination="iwc-Cp-YiQ" kind="show" id="9d0-Z9-h2p"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="pzy-dl-iTy">
                                 <rect key="frame" x="0.0" y="255.5" width="1024" height="200"/>
@@ -881,11 +899,17 @@ me to do things.</string>
                                 <rect key="frame" x="544" y="602" width="400" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="6"/>
+                                <connections>
+                                    <segue destination="6fi-YY-Lne" kind="show" id="hx0-A2-kd7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fb7-k2-eOO">
                                 <rect key="frame" x="114" y="602" width="400" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="5"/>
+                                <connections>
+                                    <segue destination="ZcD-Pl-dM9" kind="show" id="5t2-5O-r2z"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="U1q-cJ-eQQ">
                                 <rect key="frame" x="0.0" y="255.5" width="1024" height="200"/>
@@ -989,7 +1013,7 @@ me to do things.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6hE-wh-SVn" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="601" y="2867"/>
+            <point key="canvasLocation" x="601" y="2905"/>
         </scene>
         <!--Q1-->
         <scene sceneID="QLA-6j-I15">
@@ -1003,11 +1027,17 @@ me to do things.</string>
                                 <rect key="frame" x="544" y="602" width="400" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="6"/>
+                                <connections>
+                                    <segue destination="Nv6-oy-pSv" kind="show" id="eiu-wb-wfQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tpW-Lc-YRf">
                                 <rect key="frame" x="114" y="602" width="400" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="5"/>
+                                <connections>
+                                    <segue destination="vQ2-E8-JTD" kind="show" id="kNk-bD-twB"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="cql-4e-Pb8">
                                 <rect key="frame" x="0.0" y="255.5" width="1024" height="200"/>
@@ -1111,7 +1141,7 @@ me to do things.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QP1-bO-AlA" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="601" y="3525"/>
+            <point key="canvasLocation" x="601" y="3565"/>
         </scene>
         <!--Q1-->
         <scene sceneID="ON7-DY-vVu">
@@ -1125,11 +1155,17 @@ me to do things.</string>
                                 <rect key="frame" x="544" y="602" width="400" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="6"/>
+                                <connections>
+                                    <segue destination="Y74-CH-i2h" kind="show" id="1p8-hZ-sNO"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xon-YH-AW1">
                                 <rect key="frame" x="114" y="602" width="400" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="5"/>
+                                <connections>
+                                    <segue destination="6fi-YY-Lne" kind="show" id="FtV-Wu-jDu"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="YBU-fe-BRP">
                                 <rect key="frame" x="0.0" y="255.5" width="1024" height="200"/>
@@ -1247,11 +1283,17 @@ me to do things.</string>
                                 <rect key="frame" x="544" y="602" width="400" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="6"/>
+                                <connections>
+                                    <segue destination="Pee-qO-xNn" kind="show" id="suS-GJ-hkH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ck-Zx-hC6">
                                 <rect key="frame" x="114" y="602" width="400" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="5"/>
+                                <connections>
+                                    <segue destination="Nv6-oy-pSv" kind="show" id="Ppm-Iv-Jwi"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="yer-mz-XFW">
                                 <rect key="frame" x="0.0" y="255.5" width="1024" height="200"/>
@@ -1369,11 +1411,17 @@ me to do things.</string>
                                 <rect key="frame" x="544" y="602" width="400" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="6"/>
+                                <connections>
+                                    <segue destination="ks4-Ts-MFX" kind="show" id="GSb-Nb-xdO"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wfU-DD-oSM">
                                 <rect key="frame" x="114" y="602" width="400" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="5"/>
+                                <connections>
+                                    <segue destination="Y74-CH-i2h" kind="show" id="YgC-1h-jOr"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="IX2-hr-474">
                                 <rect key="frame" x="0.0" y="255.5" width="1024" height="200"/>
@@ -1491,11 +1539,17 @@ me to do things.</string>
                                 <rect key="frame" x="544" y="602" width="400" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="6"/>
+                                <connections>
+                                    <segue destination="uO7-Ht-OzL" kind="show" id="Wqu-LK-jk4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hfR-jP-JjI">
                                 <rect key="frame" x="114" y="602" width="400" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="5"/>
+                                <connections>
+                                    <segue destination="Pee-qO-xNn" kind="show" id="dzl-uV-TmP"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="frc-hS-6tJ">
                                 <rect key="frame" x="0.0" y="255.5" width="1024" height="200"/>
@@ -1613,11 +1667,17 @@ me to do things.</string>
                                 <rect key="frame" x="544" y="602" width="400" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="6"/>
+                                <connections>
+                                    <segue destination="snB-Mf-5Rx" kind="show" id="81W-Ye-FLu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KPQ-Mf-sPO">
                                 <rect key="frame" x="114" y="602" width="400" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="5"/>
+                                <connections>
+                                    <segue destination="ks4-Ts-MFX" kind="show" id="T1A-47-coE"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="zr5-F3-lZA">
                                 <rect key="frame" x="0.0" y="255.5" width="1024" height="200"/>
@@ -1721,7 +1781,7 @@ me to do things.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uoP-Mv-utO" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="601" y="6902"/>
+            <point key="canvasLocation" x="601" y="7002"/>
         </scene>
         <!--Q1-->
         <scene sceneID="AWv-Ky-XqN">
@@ -1735,11 +1795,17 @@ me to do things.</string>
                                 <rect key="frame" x="544" y="602" width="400" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="6"/>
+                                <connections>
+                                    <segue destination="c8l-Ms-VUo" kind="show" id="EP7-2w-CNC"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SYC-Lp-cjj">
                                 <rect key="frame" x="114" y="602" width="400" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="5"/>
+                                <connections>
+                                    <segue destination="uO7-Ht-OzL" kind="show" id="NpO-Vs-eyW"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="9Lu-a3-Jby">
                                 <rect key="frame" x="0.0" y="255.5" width="1024" height="200"/>
@@ -1857,11 +1923,17 @@ me to do things.</string>
                                 <rect key="frame" x="544" y="602" width="400" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="6"/>
+                                <connections>
+                                    <segue destination="0sJ-Je-LjC" kind="show" id="U2o-SH-mkv"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rEX-iY-qMu">
                                 <rect key="frame" x="114" y="602" width="400" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="5"/>
+                                <connections>
+                                    <segue destination="snB-Mf-5Rx" kind="show" id="JTd-Nb-QhN"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="CMH-fo-aRa">
                                 <rect key="frame" x="0.0" y="255.5" width="1024" height="200"/>
@@ -1979,11 +2051,17 @@ me to do things.</string>
                                 <rect key="frame" x="544" y="602" width="400" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="6"/>
+                                <connections>
+                                    <segue destination="dyu-OJ-gtG" kind="show" id="knv-P3-jfn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dhx-pb-SCB">
                                 <rect key="frame" x="114" y="602" width="400" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="5"/>
+                                <connections>
+                                    <segue destination="c8l-Ms-VUo" kind="show" id="Lys-nf-fSu"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="fR8-e6-jkH">
                                 <rect key="frame" x="0.0" y="255.5" width="1024" height="200"/>
@@ -2101,11 +2179,17 @@ me to do things.</string>
                                 <rect key="frame" x="544" y="602" width="400" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="6"/>
+                                <connections>
+                                    <segue destination="fLT-eH-cpA" kind="show" id="bJN-mp-321"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h1p-5f-S6o">
                                 <rect key="frame" x="114" y="602" width="400" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="5"/>
+                                <connections>
+                                    <segue destination="0sJ-Je-LjC" kind="show" id="ROE-Nt-Xbk"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="g2M-HQ-Wn0">
                                 <rect key="frame" x="0.0" y="255.5" width="1024" height="200"/>
@@ -2209,7 +2293,7 @@ me to do things.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ycq-ao-isS" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="601" y="9842"/>
+            <point key="canvasLocation" x="601" y="9854"/>
         </scene>
         <!--Q1-->
         <scene sceneID="T6n-P9-EjH">
@@ -2223,11 +2307,17 @@ me to do things.</string>
                                 <rect key="frame" x="544" y="602" width="400" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="6"/>
+                                <connections>
+                                    <segue destination="EJr-CR-7eS" kind="show" id="jbQ-bG-kAG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LOE-Jg-DnE">
                                 <rect key="frame" x="114" y="602" width="400" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="5"/>
+                                <connections>
+                                    <segue destination="dyu-OJ-gtG" kind="show" id="215-xt-CZm"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="891-UB-8AC">
                                 <rect key="frame" x="0.0" y="255.5" width="1024" height="200"/>
@@ -2345,11 +2435,17 @@ me to do things.</string>
                                 <rect key="frame" x="544" y="602" width="400" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="6"/>
+                                <connections>
+                                    <segue destination="7pj-TK-rZ0" kind="show" id="IU3-7r-3Qc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DaP-K8-Rw6">
                                 <rect key="frame" x="114" y="602" width="400" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="5"/>
+                                <connections>
+                                    <segue destination="fLT-eH-cpA" kind="show" id="6G6-5k-ldd"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="9Ot-hP-jjE">
                                 <rect key="frame" x="0.0" y="255.5" width="1024" height="200"/>
@@ -2484,10 +2580,26 @@ me to do things.</string>
         <image name="maryville-vertical-logo" width="1070" height="1146"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="RNr-LM-mas"/>
+        <segue reference="2II-ct-HUH"/>
+        <segue reference="6G6-5k-ldd"/>
+        <segue reference="215-xt-CZm"/>
+        <segue reference="ROE-Nt-Xbk"/>
+        <segue reference="Lys-nf-fSu"/>
+        <segue reference="JTd-Nb-QhN"/>
+        <segue reference="NpO-Vs-eyW"/>
+        <segue reference="T1A-47-coE"/>
+        <segue reference="dzl-uV-TmP"/>
+        <segue reference="YgC-1h-jOr"/>
+        <segue reference="Ppm-Iv-Jwi"/>
+        <segue reference="FtV-Wu-jDu"/>
+        <segue reference="kNk-bD-twB"/>
+        <segue reference="5t2-5O-r2z"/>
+        <segue reference="rw3-N5-B2c"/>
+        <segue reference="IU3-7r-3Qc"/>
         <segue reference="ZaO-De-wHv"/>
         <segue reference="1LN-r3-gYD"/>
         <segue reference="0UO-DC-gHx"/>
+        <segue reference="U5c-nv-RYQ"/>
         <segue reference="fIG-fF-BRl"/>
         <segue reference="W70-ZG-scz"/>
     </inferredMetricsTieBreakers>
