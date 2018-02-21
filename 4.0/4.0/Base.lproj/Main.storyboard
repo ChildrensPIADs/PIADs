@@ -191,10 +191,8 @@ the given statement makes you feel.</string>
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FCw-Ja-W85">
-                                <rect key="frame" x="39" y="101" width="946" height="116.5"/>
-                                <string key="text">Makes it easier for 
-me to do things.</string>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Makes it easier for me to do things" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FCw-Ja-W85">
+                                <rect key="frame" x="39" y="101" width="946" height="58.5"/>
                                 <fontDescription key="fontDescription" name="LucidaGrande-Bold" family="Lucida Grande" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -208,7 +206,7 @@ me to do things.</string>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="7p5-y9-6MH">
-                                <rect key="frame" x="0.0" y="255.5" width="1024" height="200"/>
+                                <rect key="frame" x="0.0" y="197.5" width="1024" height="200"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4tA-ca-B7E">
                                         <rect key="frame" x="0.0" y="0.0" width="205" height="200"/>
@@ -236,7 +234,7 @@ me to do things.</string>
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="jiX-Vh-kLL">
-                                <rect key="frame" x="0.0" y="463.5" width="1024" height="35"/>
+                                <rect key="frame" x="0.0" y="405.5" width="1024" height="35"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Never" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jxL-wr-BaP">
                                         <rect key="frame" x="0.0" y="0.0" width="205" height="35"/>
@@ -369,7 +367,7 @@ use your technology?
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mph-1y-vEf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="647" y="13516"/>
+            <point key="canvasLocation" x="616" y="12317"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="5fr-Oo-waL">
@@ -431,7 +429,7 @@ your technology?</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ynK-WF-yUV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="647" y="14516"/>
+            <point key="canvasLocation" x="616" y="13317"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="8MH-WF-1ea">
@@ -492,7 +490,7 @@ about the technology?</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LL0-Hc-Slx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="647" y="15591"/>
+            <point key="canvasLocation" x="616" y="14392"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="xIY-KI-8RE">
@@ -553,7 +551,7 @@ using your technology</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xjs-7A-mku" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="647" y="16557"/>
+            <point key="canvasLocation" x="616" y="15358"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="HqW-je-TYb">
@@ -577,7 +575,7 @@ using your technology</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EFa-qv-R2X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="647" y="17454"/>
+            <point key="canvasLocation" x="616" y="16255"/>
         </scene>
         <!--Section 2 scrren-->
         <scene sceneID="snS-dW-nMn">
@@ -599,7 +597,7 @@ using your technology</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="iPad 5 copy 4"/>
                                 <connections>
-                                    <segue destination="EJr-CR-7eS" kind="show" id="2II-ct-HUH"/>
+                                    <segue destination="fLT-eH-cpA" kind="show" id="jXD-Te-9gF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XYr-T0-jck">
@@ -629,7 +627,7 @@ given question.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UvH-4c-Hbm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="647" y="12478"/>
+            <point key="canvasLocation" x="616" y="11279"/>
         </scene>
         <!--Q1-->
         <scene sceneID="Va3-bk-A6I">
@@ -656,7 +654,7 @@ given question.</string>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="cPB-Gr-pgW">
-                                <rect key="frame" x="0.0" y="255.5" width="1024" height="200"/>
+                                <rect key="frame" x="0.0" y="197" width="1024" height="200"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ukC-oW-Qh2">
                                         <rect key="frame" x="0.0" y="0.0" width="205" height="200"/>
@@ -684,7 +682,7 @@ given question.</string>
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ZRL-aW-75e">
-                                <rect key="frame" x="0.0" y="463.5" width="1024" height="35"/>
+                                <rect key="frame" x="0.0" y="405" width="1024" height="35"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Never" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gX3-74-u3L">
                                         <rect key="frame" x="0.0" y="0.0" width="205" height="35"/>
@@ -721,10 +719,8 @@ given question.</string>
                                     <constraint firstAttribute="width" constant="1024" id="CTa-4Q-3R6"/>
                                 </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wwr-Xh-O2p">
-                                <rect key="frame" x="39" y="101" width="946" height="116.5"/>
-                                <string key="text">Makes it easier for 
-me to do things.</string>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Allows me to show my talents." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wwr-Xh-O2p">
+                                <rect key="frame" x="39" y="101" width="946" height="58.5"/>
                                 <fontDescription key="fontDescription" name="LucidaGrande-Bold" family="Lucida Grande" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -784,7 +780,7 @@ me to do things.</string>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="pzy-dl-iTy">
-                                <rect key="frame" x="0.0" y="255.5" width="1024" height="200"/>
+                                <rect key="frame" x="0.0" y="197.5" width="1024" height="200"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ccR-lz-Rpl">
                                         <rect key="frame" x="0.0" y="0.0" width="205" height="200"/>
@@ -812,7 +808,7 @@ me to do things.</string>
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="VIB-zd-cBY">
-                                <rect key="frame" x="0.0" y="463.5" width="1024" height="35"/>
+                                <rect key="frame" x="0.0" y="405.5" width="1024" height="35"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Never" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3dj-Y6-U4z">
                                         <rect key="frame" x="0.0" y="0.0" width="205" height="35"/>
@@ -849,10 +845,8 @@ me to do things.</string>
                                     <constraint firstAttribute="width" constant="1024" id="YZE-sA-rap"/>
                                 </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zvm-7b-Pvc">
-                                <rect key="frame" x="39" y="101" width="946" height="116.5"/>
-                                <string key="text">Makes it easier for 
-me to do things.</string>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lets me do more things." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zvm-7b-Pvc">
+                                <rect key="frame" x="39" y="101" width="946" height="58.5"/>
                                 <fontDescription key="fontDescription" name="LucidaGrande-Bold" family="Lucida Grande" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -912,7 +906,7 @@ me to do things.</string>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="U1q-cJ-eQQ">
-                                <rect key="frame" x="0.0" y="255.5" width="1024" height="200"/>
+                                <rect key="frame" x="0.0" y="197.5" width="1024" height="200"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4GB-IW-1Tx">
                                         <rect key="frame" x="0.0" y="0.0" width="205" height="200"/>
@@ -940,7 +934,7 @@ me to do things.</string>
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="t4k-eL-ddZ">
-                                <rect key="frame" x="0.0" y="463.5" width="1024" height="35"/>
+                                <rect key="frame" x="0.0" y="405.5" width="1024" height="35"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Never" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r7q-YC-BcH">
                                         <rect key="frame" x="0.0" y="0.0" width="205" height="35"/>
@@ -977,10 +971,8 @@ me to do things.</string>
                                     <constraint firstAttribute="width" constant="1024" id="tI5-1S-9lI"/>
                                 </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ogm-Bl-UOk">
-                                <rect key="frame" x="39" y="101" width="946" height="116.5"/>
-                                <string key="text">Makes it easier for 
-me to do things.</string>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Helps me do things well." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ogm-Bl-UOk">
+                                <rect key="frame" x="39" y="101" width="946" height="58.5"/>
                                 <fontDescription key="fontDescription" name="LucidaGrande-Bold" family="Lucida Grande" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1040,7 +1032,7 @@ me to do things.</string>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="cql-4e-Pb8">
-                                <rect key="frame" x="0.0" y="255.5" width="1024" height="200"/>
+                                <rect key="frame" x="0.0" y="197.5" width="1024" height="200"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XlY-hI-nuA">
                                         <rect key="frame" x="0.0" y="0.0" width="205" height="200"/>
@@ -1068,7 +1060,7 @@ me to do things.</string>
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="20N-vb-IbY">
-                                <rect key="frame" x="0.0" y="463.5" width="1024" height="35"/>
+                                <rect key="frame" x="0.0" y="405.5" width="1024" height="35"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Never" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wtX-TH-Ljr">
                                         <rect key="frame" x="0.0" y="0.0" width="205" height="35"/>
@@ -1105,10 +1097,8 @@ me to do things.</string>
                                     <constraint firstAttribute="width" constant="1024" id="OPF-uu-lag"/>
                                 </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SZN-tN-YrV">
-                                <rect key="frame" x="39" y="101" width="946" height="116.5"/>
-                                <string key="text">Makes it easier for 
-me to do things.</string>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Makes me feel safe." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SZN-tN-YrV">
+                                <rect key="frame" x="39" y="101" width="946" height="58.5"/>
                                 <fontDescription key="fontDescription" name="LucidaGrande-Bold" family="Lucida Grande" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1168,7 +1158,7 @@ me to do things.</string>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="YBU-fe-BRP">
-                                <rect key="frame" x="0.0" y="255.5" width="1024" height="200"/>
+                                <rect key="frame" x="0.0" y="197.5" width="1024" height="200"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXj-8m-GK4">
                                         <rect key="frame" x="0.0" y="0.0" width="205" height="200"/>
@@ -1196,7 +1186,7 @@ me to do things.</string>
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="akl-vO-DkY">
-                                <rect key="frame" x="0.0" y="463.5" width="1024" height="35"/>
+                                <rect key="frame" x="0.0" y="405.5" width="1024" height="35"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Never" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jdb-OT-0Y0">
                                         <rect key="frame" x="0.0" y="0.0" width="205" height="35"/>
@@ -1233,10 +1223,8 @@ me to do things.</string>
                                     <constraint firstAttribute="width" constant="1024" id="jT5-Ku-lsG"/>
                                 </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UB3-ub-z7Z">
-                                <rect key="frame" x="39" y="101" width="946" height="116.5"/>
-                                <string key="text">Makes it easier for 
-me to do things.</string>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Helps me feel okay." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UB3-ub-z7Z">
+                                <rect key="frame" x="39" y="101" width="946" height="58.5"/>
                                 <fontDescription key="fontDescription" name="LucidaGrande-Bold" family="Lucida Grande" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1296,7 +1284,7 @@ me to do things.</string>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="yer-mz-XFW">
-                                <rect key="frame" x="0.0" y="255.5" width="1024" height="200"/>
+                                <rect key="frame" x="0.0" y="197.5" width="1024" height="200"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cza-1x-9MK">
                                         <rect key="frame" x="0.0" y="0.0" width="205" height="200"/>
@@ -1324,7 +1312,7 @@ me to do things.</string>
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="0kW-ub-UW9">
-                                <rect key="frame" x="0.0" y="463.5" width="1024" height="35"/>
+                                <rect key="frame" x="0.0" y="405.5" width="1024" height="35"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Never" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c8e-9i-TWd">
                                         <rect key="frame" x="0.0" y="0.0" width="205" height="35"/>
@@ -1361,10 +1349,8 @@ me to do things.</string>
                                     <constraint firstAttribute="width" constant="1024" id="HLD-jX-aUQ"/>
                                 </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5N7-9Y-fSg">
-                                <rect key="frame" x="39" y="101" width="946" height="116.5"/>
-                                <string key="text">Makes it easier for 
-me to do things.</string>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gives me hope." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5N7-9Y-fSg">
+                                <rect key="frame" x="39" y="101" width="946" height="58.5"/>
                                 <fontDescription key="fontDescription" name="LucidaGrande-Bold" family="Lucida Grande" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1424,7 +1410,7 @@ me to do things.</string>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="IX2-hr-474">
-                                <rect key="frame" x="0.0" y="255.5" width="1024" height="200"/>
+                                <rect key="frame" x="0.0" y="197.5" width="1024" height="200"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pxe-TS-T6V">
                                         <rect key="frame" x="0.0" y="0.0" width="205" height="200"/>
@@ -1452,7 +1438,7 @@ me to do things.</string>
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="jCt-t1-eBT">
-                                <rect key="frame" x="0.0" y="463.5" width="1024" height="35"/>
+                                <rect key="frame" x="0.0" y="405.5" width="1024" height="35"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Never" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Huj-4A-imN">
                                         <rect key="frame" x="0.0" y="0.0" width="205" height="35"/>
@@ -1489,10 +1475,8 @@ me to do things.</string>
                                     <constraint firstAttribute="width" constant="1024" id="uBa-Ya-qvJ"/>
                                 </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QbK-uy-bJy">
-                                <rect key="frame" x="39" y="101" width="946" height="116.5"/>
-                                <string key="text">Makes it easier for 
-me to do things.</string>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Helps me do things on my own." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QbK-uy-bJy">
+                                <rect key="frame" x="39" y="101" width="946" height="58.5"/>
                                 <fontDescription key="fontDescription" name="LucidaGrande-Bold" family="Lucida Grande" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1552,7 +1536,7 @@ me to do things.</string>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="frc-hS-6tJ">
-                                <rect key="frame" x="0.0" y="255.5" width="1024" height="200"/>
+                                <rect key="frame" x="0.0" y="197.5" width="1024" height="200"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bUi-7s-TiO">
                                         <rect key="frame" x="0.0" y="0.0" width="205" height="200"/>
@@ -1580,7 +1564,7 @@ me to do things.</string>
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="l6L-Xp-ANL">
-                                <rect key="frame" x="0.0" y="463.5" width="1024" height="35"/>
+                                <rect key="frame" x="0.0" y="405.5" width="1024" height="35"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Never" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gEV-Zx-MOz">
                                         <rect key="frame" x="0.0" y="0.0" width="205" height="35"/>
@@ -1617,10 +1601,8 @@ me to do things.</string>
                                     <constraint firstAttribute="width" constant="1024" id="7MD-KZ-cMO"/>
                                 </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jkj-2O-V0f">
-                                <rect key="frame" x="39" y="101" width="946" height="116.5"/>
-                                <string key="text">Makes it easier for 
-me to do things.</string>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Makes me want to try new things." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jkj-2O-V0f">
+                                <rect key="frame" x="39" y="101" width="946" height="58.5"/>
                                 <fontDescription key="fontDescription" name="LucidaGrande-Bold" family="Lucida Grande" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1680,7 +1662,7 @@ me to do things.</string>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="zr5-F3-lZA">
-                                <rect key="frame" x="0.0" y="255.5" width="1024" height="200"/>
+                                <rect key="frame" x="0.0" y="197" width="1024" height="200"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X76-eH-vZS">
                                         <rect key="frame" x="0.0" y="0.0" width="205" height="200"/>
@@ -1708,7 +1690,7 @@ me to do things.</string>
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="IQr-0y-zwV">
-                                <rect key="frame" x="0.0" y="463.5" width="1024" height="35"/>
+                                <rect key="frame" x="0.0" y="405" width="1024" height="35"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Never" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t9y-fT-04e">
                                         <rect key="frame" x="0.0" y="0.0" width="205" height="35"/>
@@ -1745,10 +1727,8 @@ me to do things.</string>
                                     <constraint firstAttribute="width" constant="1024" id="s9F-W3-aIb"/>
                                 </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="959-SJ-sRo">
-                                <rect key="frame" x="39" y="101" width="946" height="116.5"/>
-                                <string key="text">Makes it easier for 
-me to do things.</string>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Makes me feel happy." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="959-SJ-sRo">
+                                <rect key="frame" x="39" y="101" width="946" height="58.5"/>
                                 <fontDescription key="fontDescription" name="LucidaGrande-Bold" family="Lucida Grande" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1808,7 +1788,7 @@ me to do things.</string>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="9Lu-a3-Jby">
-                                <rect key="frame" x="0.0" y="255.5" width="1024" height="200"/>
+                                <rect key="frame" x="0.0" y="197.5" width="1024" height="200"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FhS-x3-tCZ">
                                         <rect key="frame" x="0.0" y="0.0" width="205" height="200"/>
@@ -1836,7 +1816,7 @@ me to do things.</string>
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Jql-hq-NLZ">
-                                <rect key="frame" x="0.0" y="463.5" width="1024" height="35"/>
+                                <rect key="frame" x="0.0" y="405.5" width="1024" height="35"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Never" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GxL-lu-sDk">
                                         <rect key="frame" x="0.0" y="0.0" width="205" height="35"/>
@@ -1873,10 +1853,8 @@ me to do things.</string>
                                     <constraint firstAttribute="width" constant="1024" id="JOp-tc-mLb"/>
                                 </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qho-aj-YSa">
-                                <rect key="frame" x="39" y="101" width="946" height="116.5"/>
-                                <string key="text">Makes it easier for 
-me to do things.</string>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Helps me feel in control." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qho-aj-YSa">
+                                <rect key="frame" x="39" y="101" width="946" height="58.5"/>
                                 <fontDescription key="fontDescription" name="LucidaGrande-Bold" family="Lucida Grande" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1936,7 +1914,7 @@ me to do things.</string>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="CMH-fo-aRa">
-                                <rect key="frame" x="0.0" y="255.5" width="1024" height="200"/>
+                                <rect key="frame" x="0.0" y="197.5" width="1024" height="200"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3P4-OP-1xD">
                                         <rect key="frame" x="0.0" y="0.0" width="205" height="200"/>
@@ -1964,7 +1942,7 @@ me to do things.</string>
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="LUh-8N-LSk">
-                                <rect key="frame" x="0.0" y="463.5" width="1024" height="35"/>
+                                <rect key="frame" x="0.0" y="405.5" width="1024" height="35"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Never" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HNH-Fm-lx6">
                                         <rect key="frame" x="0.0" y="0.0" width="205" height="35"/>
@@ -2001,10 +1979,8 @@ me to do things.</string>
                                     <constraint firstAttribute="width" constant="1024" id="bdh-9E-Hpe"/>
                                 </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZX6-D6-H5V">
-                                <rect key="frame" x="39" y="101" width="946" height="116.5"/>
-                                <string key="text">Makes it easier for 
-me to do things.</string>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Is helpful to me." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZX6-D6-H5V">
+                                <rect key="frame" x="39" y="101" width="946" height="58.5"/>
                                 <fontDescription key="fontDescription" name="LucidaGrande-Bold" family="Lucida Grande" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -2064,7 +2040,7 @@ me to do things.</string>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="fR8-e6-jkH">
-                                <rect key="frame" x="0.0" y="255.5" width="1024" height="200"/>
+                                <rect key="frame" x="0.0" y="197.5" width="1024" height="200"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ueR-XK-kC0">
                                         <rect key="frame" x="0.0" y="0.0" width="205" height="200"/>
@@ -2092,7 +2068,7 @@ me to do things.</string>
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="b9f-KC-ac9">
-                                <rect key="frame" x="0.0" y="463.5" width="1024" height="35"/>
+                                <rect key="frame" x="0.0" y="405.5" width="1024" height="35"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Never" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YWG-Pt-ZnV">
                                         <rect key="frame" x="0.0" y="0.0" width="205" height="35"/>
@@ -2129,10 +2105,8 @@ me to do things.</string>
                                     <constraint firstAttribute="width" constant="1024" id="Q4c-6J-arb"/>
                                 </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EYn-JX-HQS">
-                                <rect key="frame" x="39" y="101" width="946" height="116.5"/>
-                                <string key="text">Makes it easier for 
-me to do things.</string>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Makes me feel good about myself." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EYn-JX-HQS">
+                                <rect key="frame" x="39" y="101" width="946" height="58.5"/>
                                 <fontDescription key="fontDescription" name="LucidaGrande-Bold" family="Lucida Grande" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -2192,7 +2166,7 @@ me to do things.</string>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="g2M-HQ-Wn0">
-                                <rect key="frame" x="0.0" y="255.5" width="1024" height="200"/>
+                                <rect key="frame" x="0.0" y="197.5" width="1024" height="200"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XBB-OL-72v">
                                         <rect key="frame" x="0.0" y="0.0" width="205" height="200"/>
@@ -2220,7 +2194,7 @@ me to do things.</string>
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="8iR-D9-aDf">
-                                <rect key="frame" x="0.0" y="463.5" width="1024" height="35"/>
+                                <rect key="frame" x="0.0" y="405.5" width="1024" height="35"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Never" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Cg-jP-een">
                                         <rect key="frame" x="0.0" y="0.0" width="205" height="35"/>
@@ -2257,10 +2231,8 @@ me to do things.</string>
                                     <constraint firstAttribute="width" constant="1024" id="crY-o0-vke"/>
                                 </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Glf-Oj-kUK">
-                                <rect key="frame" x="39" y="101" width="946" height="116.5"/>
-                                <string key="text">Makes it easier for 
-me to do things.</string>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Makes my life better." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Glf-Oj-kUK">
+                                <rect key="frame" x="39" y="101" width="946" height="58.5"/>
                                 <fontDescription key="fontDescription" name="LucidaGrande-Bold" family="Lucida Grande" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -2308,7 +2280,7 @@ me to do things.</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="6"/>
                                 <connections>
-                                    <segue destination="EJr-CR-7eS" kind="show" id="jbQ-bG-kAG"/>
+                                    <segue destination="7pj-TK-rZ0" kind="show" id="cIl-L3-Frh"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LOE-Jg-DnE">
@@ -2320,7 +2292,7 @@ me to do things.</string>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="891-UB-8AC">
-                                <rect key="frame" x="0.0" y="255.5" width="1024" height="200"/>
+                                <rect key="frame" x="0.0" y="197.5" width="1024" height="200"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pJe-gs-ubL">
                                         <rect key="frame" x="0.0" y="0.0" width="205" height="200"/>
@@ -2348,7 +2320,7 @@ me to do things.</string>
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="39i-8N-uBP">
-                                <rect key="frame" x="0.0" y="463.5" width="1024" height="35"/>
+                                <rect key="frame" x="0.0" y="405.5" width="1024" height="35"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Never" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ibv-ej-jyd">
                                         <rect key="frame" x="0.0" y="0.0" width="205" height="35"/>
@@ -2385,10 +2357,8 @@ me to do things.</string>
                                     <constraint firstAttribute="width" constant="1024" id="v40-Y9-3vn"/>
                                 </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="huG-jN-rdd">
-                                <rect key="frame" x="39" y="101" width="946" height="116.5"/>
-                                <string key="text">Makes it easier for 
-me to do things.</string>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Helps me try new things." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="huG-jN-rdd">
+                                <rect key="frame" x="39" y="101" width="946" height="58.5"/>
                                 <fontDescription key="fontDescription" name="LucidaGrande-Bold" family="Lucida Grande" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -2423,134 +2393,6 @@ me to do things.</string>
             </objects>
             <point key="canvasLocation" x="601" y="10493"/>
         </scene>
-        <!--Q1-->
-        <scene sceneID="Ece-wZ-lxS">
-            <objects>
-                <viewController title="Q1" id="EJr-CR-7eS" customClass="Q1" customModule="__0" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="W8t-OT-Hwc">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e6c-9A-Kkk">
-                                <rect key="frame" x="544" y="602" width="400" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="6"/>
-                                <connections>
-                                    <segue destination="7pj-TK-rZ0" kind="show" id="IU3-7r-3Qc"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DaP-K8-Rw6">
-                                <rect key="frame" x="114" y="602" width="400" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="5"/>
-                                <connections>
-                                    <segue destination="fLT-eH-cpA" kind="show" id="6G6-5k-ldd"/>
-                                </connections>
-                            </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="9Ot-hP-jjE">
-                                <rect key="frame" x="0.0" y="255.5" width="1024" height="200"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nAo-C7-tIn">
-                                        <rect key="frame" x="0.0" y="0.0" width="205" height="200"/>
-                                        <state key="normal" title="Button" image="11"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z7D-F4-GRd">
-                                        <rect key="frame" x="205" y="0.0" width="204.5" height="200"/>
-                                        <state key="normal" title="Button" image="10"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DkQ-ad-6gN">
-                                        <rect key="frame" x="409.5" y="0.0" width="205" height="200"/>
-                                        <state key="normal" title="Button" image="9"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pZf-EN-JCK">
-                                        <rect key="frame" x="614.5" y="0.0" width="204.5" height="200"/>
-                                        <state key="normal" title="Button" image="8"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oKP-Ra-YDE">
-                                        <rect key="frame" x="819" y="0.0" width="205" height="200"/>
-                                        <state key="normal" title="Button" image="7"/>
-                                    </button>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="1024" id="RQa-2N-85W"/>
-                                </constraints>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="8mj-PK-wqc">
-                                <rect key="frame" x="0.0" y="463.5" width="1024" height="35"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Never" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pak-kq-KAo">
-                                        <rect key="frame" x="0.0" y="0.0" width="205" height="35"/>
-                                        <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="30"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Almost Never" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G3k-Jn-T9O">
-                                        <rect key="frame" x="205" y="0.0" width="204.5" height="35"/>
-                                        <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="30"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sometimes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ebk-Sw-T48">
-                                        <rect key="frame" x="409.5" y="0.0" width="205" height="35"/>
-                                        <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="30"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Almost Always" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="63G-Gt-8Y8">
-                                        <rect key="frame" x="614.5" y="0.0" width="204.5" height="35"/>
-                                        <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="30"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Always" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SoN-Sk-ta2">
-                                        <rect key="frame" x="819" y="0.0" width="205" height="35"/>
-                                        <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="30"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="1024" id="rEb-PB-yZP"/>
-                                </constraints>
-                            </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bzH-H4-bom">
-                                <rect key="frame" x="39" y="101" width="946" height="116.5"/>
-                                <string key="text">Makes it easier for 
-me to do things.</string>
-                                <fontDescription key="fontDescription" name="LucidaGrande-Bold" family="Lucida Grande" pointSize="50"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="8mj-PK-wqc" firstAttribute="top" secondItem="9Ot-hP-jjE" secondAttribute="bottom" constant="8" id="0bv-PG-QPb"/>
-                            <constraint firstItem="9Ot-hP-jjE" firstAttribute="leading" secondItem="gh3-ra-tfC" secondAttribute="leading" id="1gV-cZ-wKQ"/>
-                            <constraint firstItem="bzH-H4-bom" firstAttribute="top" secondItem="gh3-ra-tfC" secondAttribute="top" constant="81" id="Lom-40-Y9k"/>
-                            <constraint firstItem="bzH-H4-bom" firstAttribute="leading" secondItem="gh3-ra-tfC" secondAttribute="leading" constant="39" id="edO-3U-kZf"/>
-                            <constraint firstItem="9Ot-hP-jjE" firstAttribute="top" secondItem="bzH-H4-bom" secondAttribute="bottom" constant="38" id="gvs-6d-wfc"/>
-                            <constraint firstItem="8mj-PK-wqc" firstAttribute="trailing" secondItem="gh3-ra-tfC" secondAttribute="trailing" id="lqA-Wd-rDW"/>
-                            <constraint firstItem="9Ot-hP-jjE" firstAttribute="trailing" secondItem="gh3-ra-tfC" secondAttribute="trailing" id="mDz-CL-ekq"/>
-                            <constraint firstItem="gh3-ra-tfC" firstAttribute="trailing" secondItem="bzH-H4-bom" secondAttribute="trailing" constant="39" id="qdZ-gr-5tT"/>
-                            <constraint firstItem="8mj-PK-wqc" firstAttribute="leading" secondItem="gh3-ra-tfC" secondAttribute="leading" id="xoy-6h-aWp"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="gh3-ra-tfC"/>
-                    </view>
-                    <connections>
-                        <outlet property="almostAlwaysButton" destination="pZf-EN-JCK" id="XY8-DK-vPw"/>
-                        <outlet property="almostNeverButton" destination="z7D-F4-GRd" id="zh1-L9-piN"/>
-                        <outlet property="alwaysButton" destination="oKP-Ra-YDE" id="asg-IJ-wCz"/>
-                        <outlet property="backButton" destination="DaP-K8-Rw6" id="nfR-wk-If4"/>
-                        <outlet property="forwardButton" destination="e6c-9A-Kkk" id="jhg-2f-xKf"/>
-                        <outlet property="neverButton" destination="nAo-C7-tIn" id="obi-dw-scc"/>
-                        <outlet property="questionLabel" destination="bzH-H4-bom" id="69M-qE-B0k"/>
-                        <outlet property="sometimesButton" destination="DkQ-ad-6gN" id="0ex-Cg-7Wa"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uOR-Nw-FV7" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="601" y="11152"/>
-        </scene>
     </scenes>
     <resources>
         <image name="10" width="200" height="200"/>
@@ -2580,12 +2422,11 @@ me to do things.</string>
         <image name="maryville-vertical-logo" width="1070" height="1146"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="2II-ct-HUH"/>
-        <segue reference="6G6-5k-ldd"/>
+        <segue reference="jXD-Te-9gF"/>
         <segue reference="215-xt-CZm"/>
         <segue reference="ROE-Nt-Xbk"/>
         <segue reference="Lys-nf-fSu"/>
-        <segue reference="JTd-Nb-QhN"/>
+        <segue reference="81W-Ye-FLu"/>
         <segue reference="NpO-Vs-eyW"/>
         <segue reference="T1A-47-coE"/>
         <segue reference="dzl-uV-TmP"/>
@@ -2595,12 +2436,12 @@ me to do things.</string>
         <segue reference="kNk-bD-twB"/>
         <segue reference="5t2-5O-r2z"/>
         <segue reference="rw3-N5-B2c"/>
-        <segue reference="IU3-7r-3Qc"/>
-        <segue reference="ZaO-De-wHv"/>
+        <segue reference="kxB-Js-wdC"/>
+        <segue reference="uo0-ZI-XhS"/>
         <segue reference="1LN-r3-gYD"/>
         <segue reference="0UO-DC-gHx"/>
-        <segue reference="RNr-LM-mas"/>
-        <segue reference="K49-qz-xod"/>
+        <segue reference="U5c-nv-RYQ"/>
+        <segue reference="fIG-fF-BRl"/>
         <segue reference="arx-04-apo"/>
     </inferredMetricsTieBreakers>
 </document>
