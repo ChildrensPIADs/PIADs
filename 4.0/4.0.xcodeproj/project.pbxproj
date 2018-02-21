@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7307A605203DCBB600B7A044 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7307A604203DCBB600B7A044 /* LaunchScreen.storyboard */; };
 		73556C3B202BA5ED007EDF5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73556C3A202BA5ED007EDF5F /* AppDelegate.swift */; };
 		73556C3D202BA5ED007EDF5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73556C3C202BA5ED007EDF5F /* ViewController.swift */; };
 		73556C40202BA5ED007EDF5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73556C3E202BA5ED007EDF5F /* Main.storyboard */; };
@@ -49,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7307A604203DCBB600B7A044 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../../../../Desktop/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73556C37202BA5ED007EDF5F /* 4.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 4.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73556C3A202BA5ED007EDF5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73556C3C202BA5ED007EDF5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 		73556C2E202BA5ED007EDF5F = {
 			isa = PBXGroup;
 			children = (
+				7307A604203DCBB600B7A044 /* LaunchScreen.storyboard */,
 				73556C39202BA5ED007EDF5F /* 4.0 */,
 				73556C4E202BA5ED007EDF5F /* 4.0Tests */,
 				73556C59202BA5ED007EDF5F /* 4.0UITests */,
@@ -278,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73556C45202BA5ED007EDF5F /* LaunchScreen.storyboard in Resources */,
+				7307A605203DCBB600B7A044 /* LaunchScreen.storyboard in Resources */,
 				73556C42202BA5ED007EDF5F /* Assets.xcassets in Resources */,
 				73556C40202BA5ED007EDF5F /* Main.storyboard in Resources */,
 			);
